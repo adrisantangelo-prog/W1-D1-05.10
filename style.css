@@ -1,0 +1,110 @@
+html, body {
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #ffffff;
+
+}
+
+header{
+    background-image: url("https://picsum.photos/seed/picsum/1240/768");
+    background-size: cover;
+    background-position-x: center;
+    color: #ffffff;
+    text-align: center;
+    background-color: hsl(210, 66%, 74%);
+}
+
+#site-header h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sotto {
+    display: flex;
+    justify-content: center;
+    color:  #F44A4A;
+    font-style: italic;
+}
+
+
+nav{
+    color: hsl(67, 98%, 26%);
+    display: block;
+    justify-items: center;
+    font-weight: bold;
+    line-height: 10vh;
+    
+}
+
+a :hover nav{
+    background-color: hsl(67, 98%, 26%);
+}
+
+a :hover{
+    background-color: rgba(rgb(145, 11, 11), green, blue, alpha);
+}
+
+h2,h3 {
+    font-size: bold;
+    color: #1F3D7A;
+    text-align: start;
+
+}
+
+#chi-sono {
+    color: #ffffff;
+    text-align: justify;
+}
+
+#chi-sono p:first-of-type{
+    font-size: large;
+    font-style: italic;
+    color: #1F3D7A;
+}
+
+.skill li:nth-child(odd){
+    background-color: #d3ecf1;
+}
+
+.skill li:first-child{
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+    color: #1F3D7A;
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+    width: 60%;
+}
+
+input:focus {
+    outline: 1px solid #232323;
+    background-color: #232323;
+    color: #ffffff;
+}
+
+button{
+    color: #ffffff;
+    background-color: #1F3D7A;
+    font-weight: bold;
+    width: 30%;
+}
+
+a :hover button{
+    color: hsl(224, 78%, 48%);
+}
+
+footer{
+    background-color: #75b80b;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+}
